@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="XML">
+      <UniqueIdentifier>{dd4ce0d8-a8fe-4c99-aff9-c47869bd9121}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainArea">
+      <UniqueIdentifier>{1d01919a-5911-488c-9d94-f48830e79bd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainArea\Headers">
+      <UniqueIdentifier>{48e7f1a3-1f51-4908-9b34-f21f4ac42c01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DomainArea\Executable">
+      <UniqueIdentifier>{4a8b871a-1090-410f-84c7-002135d0a5ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML\Headers">
+      <UniqueIdentifier>{16ed7bd2-4ffd-4ec2-b233-787f70812cd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XML\Executable">
+      <UniqueIdentifier>{c0d1de43-5085-44bb-bd6d-26aa0d0f9585}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Borders.cpp">
+      <Filter>DomainArea\Executable</Filter>
+    </ClCompile>
+    <ClCompile Include="GeoMap.cpp">
+      <Filter>DomainArea\Executable</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Borders.h">
+      <Filter>DomainArea\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GeoMap.h">
+      <Filter>DomainArea\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
