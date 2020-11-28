@@ -142,10 +142,16 @@
     <ClCompile Include="Borders.cpp" />
     <ClCompile Include="GeoMap.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="TradeMap.cpp" />
+    <ClCompile Include="TradePoints.cpp" />
+    <ClCompile Include="XMLSerialaze.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Borders.h" />
     <ClInclude Include="GeoMap.h" />
+    <ClInclude Include="TradeMap.h" />
+    <ClInclude Include="TradePoints.h" />
+    <ClInclude Include="XMLSerialaze.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

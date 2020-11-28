@@ -42,6 +42,15 @@
     <ClCompile Include="GeoMap.cpp">
       <Filter>DomainArea\Executable</Filter>
     </ClCompile>
+    <ClCompile Include="TradeMap.cpp">
+      <Filter>DomainArea\Executable</Filter>
+    </ClCompile>
+    <ClCompile Include="TradePoints.cpp">
+      <Filter>DomainArea\Executable</Filter>
+    </ClCompile>
+    <ClCompile Include="XMLSerialaze.cpp">
+      <Filter>XML\Executable</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Borders.h">
@@ -49,6 +58,15 @@
     </ClInclude>
     <ClInclude Include="GeoMap.h">
       <Filter>DomainArea\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TradeMap.h">
+      <Filter>DomainArea\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TradePoints.h">
+      <Filter>DomainArea\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="XMLSerialaze.h">
+      <Filter>XML\Headers</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
