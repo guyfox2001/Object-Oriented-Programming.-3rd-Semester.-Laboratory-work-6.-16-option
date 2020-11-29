@@ -19,6 +19,6 @@ public:
 template<class Archive>
 inline void TradePoints::serialize(Archive& ar, const unsigned int version)
 {
-	ar << BOOST_SERIALIZATION_NVP(name);
-	ar << BOOST_SERIALIZATION_NVP(trade_coords);
+	ar & BOOST_SERIALIZATION_NVP(name);
+	ar & BOOST_SERIALIZATION_NVP(trade_coords);
 }

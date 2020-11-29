@@ -6,11 +6,12 @@ using namespace std;
 
 int main(int argc, char argv[]) {
 	TradeMap OurMap;
-	OurMap.OurBorders = OurMap.add_random_bordersList();
-	OurMap.trade_points = OurMap.add_random_trade_pointsList();
+	/*OurMap.OurBorders = OurMap.add_random_bordersList();
+	OurMap.trade_points = OurMap.add_random_trade_pointsList();*/
 	XMLSerialaze Serializator;
-	Serializator.save("123", OurMap);
-
+	Serializator.load("123", OurMap);
+	/*Serializator.save("123", OurMap);*/
+	cout << OurMap;
 
 	return 0;
 }

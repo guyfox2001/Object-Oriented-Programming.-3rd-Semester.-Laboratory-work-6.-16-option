@@ -19,7 +19,7 @@ public:
 template<class Archive>
 inline void TradeMap::serialize(Archive& ar, const unsigned int version)
 {
-    ar << BOOST_SERIALIZATION_NVP(OurBorders);
-    ar << BOOST_SERIALIZATION_NVP(SquareSize);
-    ar << BOOST_SERIALIZATION_NVP(trade_points);
+    ar & BOOST_SERIALIZATION_NVP(OurBorders);
+    ar & BOOST_SERIALIZATION_NVP(SquareSize);
+    ar & BOOST_SERIALIZATION_NVP(trade_points);
 }

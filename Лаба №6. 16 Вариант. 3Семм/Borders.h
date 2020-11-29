@@ -32,6 +32,6 @@ public:
 template<class Archive>
 inline void Borders::serialize(Archive& ar, const unsigned int version)
 {
-	ar << BOOST_SERIALIZATION_NVP(OurCoords);
-	ar << BOOST_SERIALIZATION_NVP(size);
+	ar & BOOST_SERIALIZATION_NVP(OurCoords);
+	ar & BOOST_SERIALIZATION_NVP(size);
 }
